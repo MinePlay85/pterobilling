@@ -1,5 +1,5 @@
 module.exports = (mix) => {
-  mix.ts('resources/js/admin/app.ts', 'public/js/admin.js')
+  mix.ts('resources/js/admin/index.tsx', 'public/js/admin.js')
 
   // Default theme
   mix.sass('./resources/css/themes/default/admin.scss', 'public/css/themes/default/')
