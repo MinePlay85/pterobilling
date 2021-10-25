@@ -1,7 +1,10 @@
 import React from 'react'
-import { setGlobal } from './redux/global'
+import { setGlobal } from './redux/modules/global'
 import { UserInfo } from '@/typings'
 import API from '@/common/utils/API'
+
+import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 
 const mapDispatchToProps = { API, setGlobal }
 
@@ -16,7 +19,12 @@ class App extends React.Component<AppProps> {
     })
   }
   public render(): JSX.Element {
-    return <div>test</div>
+    return (
+      <div className="admin-app">
+        <NavBar />
+        <Footer />
+      </div>
+    )
   }
 }
 
