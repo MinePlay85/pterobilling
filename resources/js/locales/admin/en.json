@@ -1,0 +1,14 @@
+{
+  "components": {
+    "footer": {
+      "copyright": "Copyright © {{year}} "
+    },
+    "navbar": {
+      "home": "Home",
+      "settings": "Settings"
+    },
+    "home": {
+      "cardtitle": "PteroBilling Informations"
+    }
+  }  
+}
